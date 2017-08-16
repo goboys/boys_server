@@ -5,6 +5,9 @@
         <wb-resource deploy-path="/" source-path="/target/m2e-jee/web-resources"/>
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/confsrc/publicconfsrc"/>
+        <dependent-module archiveName="boys_public-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/boys_public/boys_public">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="context-root" value="boys_server"/>
         <property name="java-output-path" value="/boys_server/target/classes"/>
     </wb-module>

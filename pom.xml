@@ -31,7 +31,6 @@
   </build>
   
   <dependencies>
-  <!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
 	<dependency>
 	    <groupId>org.springframework</groupId>
 	    <artifactId>spring-webmvc</artifactId>
@@ -45,9 +44,15 @@
 	</dependency>
   
 	 <dependency>
-			<groupId>com.alibaba</groupId>
-			<artifactId>dubbo</artifactId>
-			<version>${dubbo.version}</version>
+		<groupId>com.alibaba</groupId>
+		<artifactId>dubbo</artifactId>
+		<version>${dubbo.version}</version>
+	 </dependency>
+	 
+	 <dependency>
+		<groupId>com.boys.public</groupId>
+		<artifactId>boys_public</artifactId>
+		<version>1.0-SNAPSHOT</version>			
 	 </dependency>
   
   </dependencies>
