@@ -12,7 +12,7 @@ public class UserServiceImpl implements IUserService{
 		User user = new User();
 		user.setAge(22);
 		user.setId(1);
-		user.setName("SETNAME....");
+		user.setName("zk hello!");
 		return user;
 	}
 
